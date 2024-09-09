@@ -1,6 +1,6 @@
 terraform {
  backend "gcs" {
-   bucket  = "gke-terraform-backend-7"
+   bucket  = "gke-new"
    prefix  = "terraform/state"
  }
 }
